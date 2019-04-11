@@ -1,0 +1,27 @@
+<div id="AddNewContainer">
+<h1>Add New Podcast</h1>
+<article id="addNewPodcastArticle">
+    <form method="POST" action="/create" enctype="multipart/form-data">
+        <div class="input-field">
+            <label>Podcast Title:</label>
+            <input type="text" name="title" size="50" placeholder="Podcast Title..." required>
+        </div>
+        <div class="input-field">
+            <label>Podcast Author</label>
+            <input type="text" name="author" size="50" placeholder="Podcast Author..." required>
+        </div>
+        <div class="input-field">
+            <label>Podcast Cover Image:</label>
+            <input type="file" name="image" alt="Submit">
+        </div>
+        <div class="input-field">
+            <label>Rating: (optional)</label>
+            <div id="ratinginput"><input style="width: 95px;" type="number" name="rating" step="0.1" name="newRating" max="5" min="0" placeholder="Add new Rating"></input></div>        </div>
+        <div class="input-field">
+            <label>Description:</label>
+            <textarea type="text" name="description" rows="5" placeholder="Podcast Description..." required></textarea>
+        </div>
+        <button type="submit">Create Podcast</button>
+    </form>
+</article>
+</div>

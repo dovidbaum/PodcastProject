@@ -1,0 +1,82 @@
+{{log "at the homepage"}}
+
+{{log data}}
+
+{{#if data}}
+<div id="search">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by title" title="Type in a name">
+
+    <ul id="myUL" hidden>
+    {{#each data}}
+        <li><a href="#">{{this.title}}</a></li>
+    {{/each}}
+    </ul>
+    <div id="errorMessage"></div>
+</div>
+
+
+    <h2>Reviews: </h2>
+
+{{#each data}}
+    <div class="container">
+
+    <article id="{{this.title}}">
+        <h2 class="title">{{this.title}}</h2>
+        <h5 class="author">{{this.author}}</h5>
+
+        <div class="content">
+        <!--todo: add image - How come I can't even display a regular image? -->
+            <img src="/public/{{this.image}}" width="200px" height="200px" alt="not image found" onerror="this.onerror=null;this.src='/public/podcast-header1.jpg';" />
+            <br>
+            <div class="description">{{{this.description}}}</div>
+            <div class="ratings">
+                <div><strong> Avg. Rating: </strong>{{getAverage this.ratings}}</div>
+                <div>
+                    <form method="POST" action="/addRating/{{this.title}} ">
+                       <div id="ratinginput"><input style="width: 95px;" type="number" step="0.1" name="newRating" max="5" min="0" placeholder="Add new Rating"></input></div>
+                        <div><button type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    </div>
+{{/each}}
+{{else}}
+
+    <article style="background-color: transparent">
+        <h1 style="">There are no podcasts yet. :(</h1>
+        <a href="/addNewPodcast">Add your first podcast!</a>
+    </article>
+
+{{/if}}
+
+
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue, article;
+        input = document.getElementById("myInput");
+
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                //  li[i].style.display = "";
+                console.log(txtValue)
+
+                article = document.getElementById(txtValue);
+                article.style.display = "";
+                document.getElementById("errorMessage").innerText = ""
+            } else {
+                article = document.getElementById(txtValue);
+                article.style.display = "none";
+                document.getElementById("errorMessage").innerText = "there are no matches"
+
+            }
+        }
+    }
+</script>

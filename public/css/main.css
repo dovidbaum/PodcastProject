@@ -1,0 +1,161 @@
+/* Please add your own! */
+body{
+    color: #E7DFDD;
+    background-color: #0E0B16;
+}
+#homeContainer{
+}
+
+#mainTitle {
+    text-align: center;
+}
+.nav #navBar li {
+    float: left;
+}
+.nav #navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A239CA;
+}
+.nav #navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Merriweather;
+}
+.nav #navBar li a:hover {
+    background-color: #6D7993;
+}
+article {
+    padding: 5px;
+    background-color: #4717F6;
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.nav .tag {
+    padding: 10px;
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
+#content{
+
+
+}
+.container {
+    float:left;
+    padding: 10px;
+}
+.description{
+    width: 90%;
+    padding: 5px;
+    height: 50px;
+    overflow: scroll;
+}
+a{
+    color: #ccff00;
+}
+#ratingInput{
+}
+
+/****************
+      FORM
+*****************/
+#AddNewContainer{
+    width: 100%;
+}
+#addNewPodcastArticle{
+    width: 800px;
+    color: #E7DFDD;
+}
+
+#AddNewContainer .input-field {
+    padding: 10px 0;
+}
+
+#AddNewContainer label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#AddNewContainer input {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#AddNewContainer textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #A239CA;
+    color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin: 4px 2px;
+
+}
+#AddNewContainer button{
+    font-size: 20px;
+}
+
+
+
+
+
+/* ########## SEARCH ############### */
+#search{
+    padding-top: 5px;
+    width: 300px;
+}
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    height: 200px;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+
