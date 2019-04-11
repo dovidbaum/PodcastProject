@@ -280,6 +280,6 @@ app.get('/randomPodcast',function(req,res){
     });
 });
 
-app.listen(PORT, function() {
-    console.log('Listening on port '+ PORT);
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Listening!');
 });
