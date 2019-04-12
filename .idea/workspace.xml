@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1830ea0-8575-4da2-aa17-ae5584a30025" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/podcasts.json" afterPath="$PROJECT_DIR$/podcasts.json" />
+      <change beforePath="$PROJECT_DIR$/documentation.md" afterPath="$PROJECT_DIR$/documentation.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+            <state relative-caret-position="4110">
+              <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,16 +31,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1020">
-                <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="92" selection-end-column="9" />
-                <folding>
-                  <marker date="1555019344871" expanded="true" signature="2920:3630" ph="h3:  ###### 2. Add New Data" />
-                  <marker date="1555019344871" expanded="true" signature="2945:3630" ph=" HTML form route: `/cr... }); " />
-                  <marker date="1555019344871" expanded="true" signature="5504:5548" ph="h3:  ###### 4. Search Data" />
-                  <marker date="1555019344871" expanded="true" signature="5603:5844" ph="h3:  ###### 5. Navigation Pages" />
-                  <marker date="1555019344871" expanded="true" signature="5603:5847" ph="h3:  ###### 5. Navigation Pages" />
-                  <marker date="1555019344871" expanded="true" signature="5655:5844" ph="ordered list:  1. Heavy Dogs -&gt; `/he...ical`" />
-                </folding>
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -54,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/deployment.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="930">
+              <first_editor relative-caret-position="563">
                 <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
                 <folding>
                   <marker date="1553871166084" expanded="true" signature="938:1044" ph="{...}" />
@@ -76,13 +66,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="podcast-header1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/podcast-header1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.handlebars">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,19 +80,39 @@
         <entry file="file://$PROJECT_DIR$/documentation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <first_editor relative-caret-position="351">
+                <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
                 <folding>
-                  <marker date="1555020164225" expanded="true" signature="461:685" ph="{...}" />
-                  <marker date="1555020164225" expanded="true" signature="473:684" ph="[...]" />
-                  <marker date="1555020164225" expanded="true" signature="479:678" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
-                  <marker date="1555020164225" expanded="true" signature="982:1361" ph="{&quot;method&quot;: 'POST'...}" />
-                  <marker date="1555020164225" expanded="true" signature="1061:1130" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
-                  <marker date="1555020164225" expanded="true" signature="1143:1354" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
-                  <marker date="1555020164225" expanded="true" signature="1420:1494" ph="{...}" />
+                  <marker date="1555067667388" expanded="true" signature="477:701" ph="{...}" />
+                  <marker date="1555067667388" expanded="true" signature="489:700" ph="[...]" />
+                  <marker date="1555067667388" expanded="true" signature="495:694" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
+                  <marker date="1555067667388" expanded="true" signature="998:1377" ph="{&quot;method&quot;: 'POST'...}" />
+                  <marker date="1555067667388" expanded="true" signature="1077:1146" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
+                  <marker date="1555067667388" expanded="true" signature="1159:1370" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
+                  <marker date="1555067667388" expanded="true" signature="1436:1510" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="randomPodcast.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/randomPodcast.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="justAdded.handlebars" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,28 +120,9 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="documentation_example.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation_example.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="45" />
-                <folding>
-                  <marker date="1553260215870" expanded="true" signature="472:580" ph="{...}" />
-                  <marker date="1553260215870" expanded="true" signature="777:1136" ph="{&quot;method&quot;: 'POST'...}" />
-                  <marker date="1553260215870" expanded="true" signature="858:927" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
-                  <marker date="1553260215870" expanded="true" signature="939:1133" ph="{&quot;name&quot;: 'Cupcake'...}" />
-                  <marker date="1553260215870" expanded="true" signature="1189:1251" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -191,10 +175,10 @@
         <option value="$PROJECT_DIR$/views/addNewPodcast.handlebars" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/views/home.handlebars" />
-        <option value="$PROJECT_DIR$/documentation.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/podcasts.json" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/documentation.md" />
       </list>
     </option>
   </component>
@@ -216,7 +200,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="103" />
+    <option name="y" value="48" />
     <option name="width" value="1276" />
     <option name="height" value="737" />
   </component>
@@ -235,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,6 +241,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,14 +304,15 @@
       <workItem from="1555008033259" duration="5874000" />
       <workItem from="1555020602901" duration="61000" />
       <workItem from="1555021685161" duration="393000" />
+      <workItem from="1555067627472" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48172000" />
+    <option name="totallyTimeSpent" value="48224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1276" height="737" extended-state="0" />
+    <frame x="103" y="48" width="1276" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18565737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -609,20 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/randomPodcast.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -634,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="107" lean-forward="false" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,69 +630,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation_example.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="45" />
-            <folding>
-              <marker date="1553260215870" expanded="true" signature="472:580" ph="{...}" />
-              <marker date="1553260215870" expanded="true" signature="777:1136" ph="{&quot;method&quot;: 'POST'...}" />
-              <marker date="1553260215870" expanded="true" signature="858:927" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
-              <marker date="1553260215870" expanded="true" signature="939:1133" ph="{&quot;name&quot;: 'Cupcake'...}" />
-              <marker date="1553260215870" expanded="true" signature="1189:1251" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="930">
-            <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-            <folding>
-              <marker date="1553871166084" expanded="true" signature="938:1044" ph="{...}" />
-              <marker date="1553871166084" expanded="true" signature="1028:1042" ph="/*...*/" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation_example.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1020">
-            <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="92" selection-end-column="9" />
-            <folding>
-              <marker date="1555019344871" expanded="true" signature="2920:3630" ph="h3:  ###### 2. Add New Data" />
-              <marker date="1555019344871" expanded="true" signature="2945:3630" ph=" HTML form route: `/cr... }); " />
-              <marker date="1555019344871" expanded="true" signature="5504:5548" ph="h3:  ###### 4. Search Data" />
-              <marker date="1555019344871" expanded="true" signature="5603:5844" ph="h3:  ###### 5. Navigation Pages" />
-              <marker date="1555019344871" expanded="true" signature="5603:5847" ph="h3:  ###### 5. Navigation Pages" />
-              <marker date="1555019344871" expanded="true" signature="5655:5844" ph="ordered list:  1. Heavy Dogs -&gt; `/he...ical`" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            <folding>
-              <marker date="1555020164225" expanded="true" signature="461:685" ph="{...}" />
-              <marker date="1555020164225" expanded="true" signature="473:684" ph="[...]" />
-              <marker date="1555020164225" expanded="true" signature="479:678" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
-              <marker date="1555020164225" expanded="true" signature="982:1361" ph="{&quot;method&quot;: 'POST'...}" />
-              <marker date="1555020164225" expanded="true" signature="1061:1130" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
-              <marker date="1555020164225" expanded="true" signature="1143:1354" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
-              <marker date="1555020164225" expanded="true" signature="1420:1494" ph="{...}" />
-            </folding>
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -735,18 +650,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="4110">
+          <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="563">
+            <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <folding>
+              <marker date="1553871166084" expanded="true" signature="938:1044" ph="{...}" />
+              <marker date="1553871166084" expanded="true" signature="1028:1042" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <folding>
+              <marker date="1555067667388" expanded="true" signature="477:701" ph="{...}" />
+              <marker date="1555067667388" expanded="true" signature="489:700" ph="[...]" />
+              <marker date="1555067667388" expanded="true" signature="495:694" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
+              <marker date="1555067667388" expanded="true" signature="998:1377" ph="{&quot;method&quot;: 'POST'...}" />
+              <marker date="1555067667388" expanded="true" signature="1077:1146" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
+              <marker date="1555067667388" expanded="true" signature="1159:1370" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
+              <marker date="1555067667388" expanded="true" signature="1436:1510" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/randomPodcast.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -17,13 +17,13 @@ URL:
 ### 1. Data Format and Storage
 
 Data point fields:
-- `Field 1`:     title     `Type: String`
-- `Field 2`:     author       `Type: ...`
-- `Field 3`:     rating       `Type: ...`
-- `Field 4`:     description       `Type: ...`
-- `Field 5`:     image       `Type:file`
-- `Field 6`:     ratings       `Type:array`
-- `Field 7`:     time       `Type:file`
+- `Field 1`:     title        `Type: String`
+- `Field 2`:     author       `Type: String`
+- `Field 3`:     rating       `Type: Number`
+- `Field 4`:     description  `Type: String`
+- `Field 5`:     image        `Type:file`
+- `Field 6`:     ratings       `Type:[Number]`
+- `Field 7`:     time          `Type:String`
 
 Schema: 
 ```javascript
