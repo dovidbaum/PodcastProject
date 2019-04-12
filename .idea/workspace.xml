@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1830ea0-8575-4da2-aa17-ae5584a30025" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/documentation.md" afterPath="$PROJECT_DIR$/documentation.md" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/documentation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
-                <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
                 <folding>
                   <marker date="1555067667388" expanded="true" signature="477:701" ph="{...}" />
                   <marker date="1555067667388" expanded="true" signature="489:700" ph="[...]" />
@@ -107,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="justAdded.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="justAdded.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -117,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -175,10 +174,10 @@
         <option value="$PROJECT_DIR$/views/addNewPodcast.handlebars" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/views/home.handlebars" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/podcasts.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/documentation.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -304,12 +303,12 @@
       <workItem from="1555008033259" duration="5874000" />
       <workItem from="1555020602901" duration="61000" />
       <workItem from="1555021685161" duration="393000" />
-      <workItem from="1555067627472" duration="48000" />
+      <workItem from="1555067627472" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48224000" />
+    <option name="totallyTimeSpent" value="48482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="48" width="1276" height="737" extended-state="0" />
@@ -658,11 +657,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/views/randomPodcast.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <folding>
+              <marker date="1555067667388" expanded="true" signature="477:701" ph="{...}" />
+              <marker date="1555067667388" expanded="true" signature="489:700" ph="[...]" />
+              <marker date="1555067667388" expanded="true" signature="495:694" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
+              <marker date="1555067667388" expanded="true" signature="998:1377" ph="{&quot;method&quot;: 'POST'...}" />
+              <marker date="1555067667388" expanded="true" signature="1077:1146" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
+              <marker date="1555067667388" expanded="true" signature="1159:1370" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
+              <marker date="1555067667388" expanded="true" signature="1436:1510" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -680,37 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-            <folding>
-              <marker date="1555067667388" expanded="true" signature="477:701" ph="{...}" />
-              <marker date="1555067667388" expanded="true" signature="489:700" ph="[...]" />
-              <marker date="1555067667388" expanded="true" signature="495:694" ph="{&quot;title&quot;: &quot;asdasd&quot;...}" />
-              <marker date="1555067667388" expanded="true" signature="998:1377" ph="{&quot;method&quot;: 'POST'...}" />
-              <marker date="1555067667388" expanded="true" signature="1077:1146" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
-              <marker date="1555067667388" expanded="true" signature="1159:1370" ph="{&quot;title&quot;: 'Postman Podcast'...}" />
-              <marker date="1555067667388" expanded="true" signature="1436:1510" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/randomPodcast.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/justAdded.handlebars">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
           <folding />
         </state>
       </provider>
